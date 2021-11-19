@@ -5,12 +5,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-# from clearml import Task
-# Task.set_credentials(api_host="http://34.242.216.131:8008",
-#                      key="O5FJE42CICB49163JU6E",
-#                      secret="ivk9J6balrGQndJVECTtlvxgg008ZoOsMfolUBSDNpJVPd5owR")
-# task = Task.init('my project', 'pytorch train 2')
-
 
 # Define NN
 class Net(nn.Module):
